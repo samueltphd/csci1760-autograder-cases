@@ -1,6 +1,9 @@
 #!/bin/sh
 
-cd submission
+cp dump_results /autograder/submission
+cp Makefile /autograder/submission
+cp AutograderTestDriver.java /autograder/submission
+cd /autograder/submission
 
 make > student-output
 
