@@ -1,4 +1,4 @@
-JAVAFILES = reeLock.java PetersonNode.java CounterTest.java ThreadID.java BakeryAlgo.java TestDriver.java
+JAVAFILES = TreeLock.java PetersonNode.java CounterTest.java ThreadID.java BakeryAlgo.java TestDriver.java
 
 all: $(JAVAFILES)
 	javac $(JAVAFILES)
